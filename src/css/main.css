@@ -4,6 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  a{
+    text-decoration: none;
+    color:#657C48;
+  }
+
   header{
     margin: 1vh;
     font-size: calc(2vh + 1px);
@@ -58,8 +63,49 @@
   }
   
   #description-page{
-    padding: 1vh 5vw;
+    padding: 3vh 5vw;
     background-color: #E4E7D5;
+    color:#204911;
+  }
+
+  #description-page h1{
+    color: #657C48;
+    padding: 2vh;
+  }
+
+  #first-two{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #second-two{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #home-recycle{
+    padding: 7vh;
+    font-size: calc(2vw + 3px);
+  }
+
+  #home-habits{
+    padding: 7vh;
+    font-size: calc(2vw + 3px);
+  }
+
+  #home-compost{
+    padding: 7vh;
+    font-size: calc(2vw + 3px);
+  }
+
+  #home-redeem{
+    padding: 7vh;
+    font-size: calc(2vw + 3px);
+  }
+
+
+  #four-desc img{
+    max-width: 100px;
   }
   
   .container{
@@ -176,33 +222,33 @@
       user-select: none;
     }
     
-    /* Set all odd list items to a different color (zebra-stripes) */
-    #recycle-list li:nth-child(odd) {
-      background: #f9f9f9;
-    }
-    
-    /* Darker background-color on hover */
-    #recycle-list li:hover {
-      background: #ddd;
-    }
-    
-    /* When clicked on, add a background color and strike out text */
-    #recycle-list li.checked {
-      background: #888;
-      color: #fff;
-      text-decoration: line-through;
-    }
-    
-    /* Add a "checked" mark when clicked on */
-    #recycle-list li.checked::before {
-      content: '';
-      position: absolute;
-      border-color: #fff;
-      border-style: solid;
-      border-width: 0 2px 2px 0;
-      top: 10px;
-      left: 16px;
-      transform: rotate(45deg);
-      height: 15px;
-      width: 7px;
-    }
+/* Set all odd list items to a different color (zebra-stripes) */
+#recycle-list li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+#recycle-list li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+#recycle-list li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+#recycle-list li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
