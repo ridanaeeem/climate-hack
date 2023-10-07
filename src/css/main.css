@@ -66,6 +66,8 @@ nav{
     justify-content: space-between;
     text-align: center;
     padding: 2vh 5vw;
+    margin-top: 10vh;
+    color: #657C48;
 }
 
 form p{
@@ -89,7 +91,7 @@ form p{
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #E4E7D5;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -104,7 +106,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #657C48;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -121,7 +123,7 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #f44336;
+  background-color: #a23a3a;
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -140,4 +142,15 @@ button:hover {
   content: "";
   clear: both;
   display: table;
+}
+
+footer{
+    background-color:#E4E7D5;
+    color: #204911;
+    text-align: center;
+    padding: 1vh 1vw;
+}
+
+#sign-footer{
+    padding-bottom: 35vh;
 }
