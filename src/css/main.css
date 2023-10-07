@@ -152,7 +152,11 @@ footer{
 }
 
 #sign-footer{
+<<<<<<<<< Temporary merge branch 1
   padding-bottom: 35vh;
+}
+=========
+    padding-bottom: 35vh;
 }
 
 #recycle-list{
@@ -206,3 +210,4 @@ footer{
     height: 15px;
     width: 7px;
   }
+>>>>>>>>> Temporary merge branch 2
