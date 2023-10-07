@@ -16,7 +16,7 @@
 			<nav>
 				<strong><a>About Us</a></strong>
 				<strong><a>Vendors</a></strong>
-				<strong><a>Sign Up</a></strong>
+				<strong><a href="signup.html">Sign Up</a></strong>
 			</nav>
 		</div>
 
@@ -50,11 +50,11 @@
 				function (ev) {
 					if (ev.target.tagName === "LI") {
 						ev.target.classList.toggle("checked");
-						let points = localStorage.getItem("points");
+						let points = localStorage.getItem("currentPoints");
 						if (points === null) {
 							alert("You have not signed up yet!");
 						} else {
-							localStorage.setItem("points", points + 5);
+							localStorage.setItem("currentPoints", parseInt(points) + 5);
 						}
 					}
 				},
