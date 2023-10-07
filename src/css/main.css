@@ -7,9 +7,15 @@ header{
     display: flex;
     flex-direction: row;
     position: relative;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1vh 1vw;
     color: red;
+}
+
+header a{
+    text-decoration: none;
+    color: #204911;
+    padding: 1vh 1vw;
 }
 
 p{
