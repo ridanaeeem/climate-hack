@@ -42,9 +42,10 @@ nav{
 
 
 #main-page{
-    padding: 35vh 5vw;
+    padding: 42vh 5vw;
     background-image: radial-gradient(#295209, #E4E7D5);
 }
+
 #main-heading{
     color: #6ED05E;
     padding: 2vh;
@@ -57,7 +58,7 @@ nav{
 }
 
 #description-page{
-    padding: 35vh 5vw;
+    padding: 1vh 5vw;
     background-color: #E4E7D5;
 }
 
